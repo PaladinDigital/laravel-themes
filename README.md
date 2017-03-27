@@ -19,6 +19,10 @@ All themes MUST make available the following stacks:
 - "scripts"
 - "styles"
 - "widgets"
+- "head"
+- "before-content"
+- "after-content"
+- "footer"
 
 ## Creating a Theme
 
