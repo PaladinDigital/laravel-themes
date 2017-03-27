@@ -37,7 +37,7 @@ To create a theme start by initialising a new composer package with the followin
      "keywords": [
        "laravel-community-theme"
      ]
- 
- ## Contributing
- 
- If you have idea's how we can improve this project please feel free to raise an issue, the goal is to give end users and developers access to a pool of themes that all work in the same way to prevent the need to reinvent the wheel repeatedly.
+
+## Contributing
+
+If you have idea's how we can improve this project please feel free to raise an issue, the goal is to give end users and developers access to a pool of themes that all work in the same way to prevent the need to reinvent the wheel repeatedly.
