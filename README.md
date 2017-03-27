@@ -9,10 +9,26 @@ All themes MUST have the following layouts:
 - master.blade.php
 
 All themes MUST make available the following yields:
- - "content"
- - "sidebar" (sidebar must be yielded however theme authors have discretion over where this is placed, eg: after content would be acceptable)
+- "content"
+- "sidebar" (sidebar must be yielded however theme authors have discretion over where this is placed, eg: after content would be acceptable)
+
+Themes may optionally make available the following yields:
+- "breadcrumbs"
  
- All themes MUST make available the following stacks:
- - "scripts"
- - "styles"
- - "widgets"
+All themes MUST make available the following stacks:
+- "scripts"
+- "styles"
+- "widgets"
+
+## Creating a Theme
+
+To create a theme start by initialising a new composer package with the following properties:
+
+     "type": "laravel-community-theme",     
+     "require": {
+       "paladindigital/laravel-theme-installer": "dev-master",
+       "paladindigital/laravel-theme-loader": "dev-master"
+     },
+     "keywords": [
+       "laravel-community-theme"
+     ]
